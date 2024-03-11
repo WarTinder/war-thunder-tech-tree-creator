@@ -1,0 +1,170 @@
+:root {
+    --bg_color: rgb(24, 35, 49);
+}
+
+* {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-color: var(--bg_color);
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    width: 100%;
+    margin: 0;
+    font-size: 14px;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow: hidden;
+    background-color: #21272b;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li span, a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation li span:hover, a:hover {
+    background-color: #32393f;
+    cursor: pointer;
+    transition-duration: 0.2s;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.modal-content {
+    color: white;
+    background-color: #32393f;
+    border-radius: 0;
+}
+
+.standard-button {
+    padding: 7px 8px;
+    text-decoration: none;
+    width: fit-content;
+    background-color: #32393f;
+    border: 2px solid white;
+}
+
+.standard-button:hover {
+    background-color: #21272b;
+    transition-duration: 0.2s;
+}
+
+#vehicleName, #vehicleEditName {
+    text-align: center;
+}
+
+#techTreeNameLabel {
+    margin-top: 1rem;
+}
+
+#techTreeNameLabel, #techTreeDescLabel {
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+#techTreeName {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+    max-width: 95vw;
+}
+
+#techTreeDesc {
+    color: white;
+    display: block;
+    width: 100%;
+    background-color: var(--bg_color);
+    border: 2px solid white;
+}
+
+#br, #brLabel, #dropdown {
+    display: inline-block;
+}
+
+#vehicleDescLabel, #vehicleEditDescLabel {
+    padding: 10px;
+}
+
+.addVehicleSecondaryOptions {
+    display: inline-block;
+    margin: 0 0.75rem 0 0.75rem;
+}
+
+.modal-submit-container {
+    text-align: center;
+}
+
+.modal-submit {
+    background-color: #32393f;
+    border: 2px solid white;
+    color: white;
+    margin: 1rem;
+    padding: 7px 8px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.modal-submit:hover {
+    background-color: #21272b;
+    transition-duration: 0.2s;
+}
+
+.cke_contents {
+    background-color: var(--bg_color);
+}
+
+.vehicle {
+    padding: 29px;
+    width: auto;
+}
+
+.vehicle-badge {
+    width: 152px;
+}
+
+.vehicle-badge:hover {
+    outline: 2px solid #ffd453;
+}
+
+.vehicle-thumbnail {
+    height: 46.44px;
+    top: 3px;
+    left: 5px;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+#tree {
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.rank {
+    border-top: 1px solid rgb(48, 59, 71);
+    border-right: 1px solid rgb(48, 59, 71);
+    border-left: 1px solid rgb(48, 59, 71);
+    margin-left: auto;
+    margin-right: auto;
+}
